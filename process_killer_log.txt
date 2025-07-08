@@ -1,0 +1,8 @@
+[2025-07-08 14:30:18] Process Killer Started
+[2025-07-08 14:30:18] Auto-killed PID 4443 (ps) - CPU: 300%, MEM: 0.0%
+
+[2025-07-08 14:30:18] Process Killer Script completed.
+[2025-07-08 14:31:33] Process Killer Started
+[2025-07-08 14:31:33] Auto-killed PID 5752 (ps) - CPU: 150%, MEM: 0.0%
+
+[2025-07-08 14:31:33] Process Killer Script completed.
