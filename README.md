@@ -38,8 +38,8 @@ A **Bash-based process monitoring and killer script** with a Python-powered **lo
 
 ### 1. Clone or Download the Repo
 ```bash
-git clone https://github.com/yourname/process-killer-analyzer.git
-cd process-killer-analyzer
+git clone https://github.com/Aarjav-2003/Process-Killer.git
+cd Process-Killer
 ```
 ### 2. Configure the Bash Script
 Edit the following variables in process_killer.sh as per your system:
@@ -49,11 +49,11 @@ CPU_THRESHOLD=10
 EMAIL_TO="your_email@example.com"
 EMAIL_ALERT=true     # only if mailutils is configured
 ```
-> ⚠️ You may need to install bc, mailutils, or lsof depending on your Linux distro.
+> ⚠️ You may need to install `bc`, `mailutils`, or `lsof` depending on your Linux distro.
 ### 3. Run the Bash Script
 ```bash
-chmod +x process_killer.sh
-./process_killer.sh
+chmod +x theProcessKiller.sh
+sudo bash ./theProcessKiller.sh
 ```
 ### 4. Run the Log Analyzer
 Make sure Python 3 is installed. Then:
