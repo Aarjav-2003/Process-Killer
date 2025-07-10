@@ -55,11 +55,15 @@ EMAIL_ALERT=true     # only if mailutils is configured
 chmod +x theProcessKiller.sh
 sudo bash ./theProcessKiller.sh
 ```
+<img width="1098" height="627" alt="Screenshot 2025-07-10 165159" src="https://github.com/user-attachments/assets/e2bc2ac0-6fb6-4d95-b780-ac2cdc4ae151" />
+
 ### 4. Run the Log Analyzer
 Make sure Python 3 is installed. Then:
 ```bash
 python3 log_analyzer.py
 ```
+<img width="380" height="371" alt="Screenshot 2025-07-10 165132" src="https://github.com/user-attachments/assets/7f274d03-a115-4705-9601-b1871278a272" />
+
 > By default, it reads process_killer.log from the same directory.
 
 
